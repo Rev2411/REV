@@ -138,15 +138,5 @@ async def ticket_button(interaction: discord.Interaction):
         view=view
     )
 
-const express = require ( 'express' ) 
-const 앱 = 익스프레스 ( ) 
 const 포트 = 프로세스 .env.PORT || 4000​​​   
-
-앱 .get ( '/' , ( 요청 , 응답 ) = > {   
-  res.send ( 'Hello World ! ' )
-} )
-
-앱 . 리스닝 ( 포트 , ( ) => {   
-  console.log ( ` 포트 ${ port } 에서 수신 하는 예제 앱 ` )
-} )
 bot.run(os.environ['TOKEN']) 
