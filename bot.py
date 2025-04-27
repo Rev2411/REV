@@ -138,5 +138,5 @@ async def ticket_button(interaction: discord.Interaction):
         view=view
     )
 
-app.run(host='0.0.0.0', port=10000)
+python app.py
 bot.run(os.environ['TOKEN']) 
