@@ -137,6 +137,4 @@ async def ticket_button(interaction: discord.Interaction):
         content=" 문의하실 사항이 있으시면 아래 📩 버튼을 눌러주세요!",
         view=view
     )
-
-python app.py
 bot.run(os.environ['TOKEN']) 
