@@ -138,5 +138,4 @@ async def ticket_button(interaction: discord.Interaction):
         view=view
     )
 
-const 포트 = 프로세스 .env.PORT || 4000​​​   
 bot.run(os.environ['TOKEN']) 
