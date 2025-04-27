@@ -139,4 +139,4 @@ async def ticket_button(interaction: discord.Interaction):
     )
 
 
-bot.run("os.environ['TOKEN']")
+bot.run(os.environ['TOKEN']) 
