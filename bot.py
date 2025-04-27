@@ -138,18 +138,5 @@ async def ticket_button(interaction: discord.Interaction):
         view=view
     )
 
-from flask import Flask
-import os
-
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
-
-if __name__ == "__main__":
-    # Render에서 제공하는 포트를 환경 변수 PORT에서 읽어옵니다.
-    port = int(os.environ.get('PORT', 8080))  # 기본값으로 8080을 사용
-    # 모든 외부 접속을 허용하려면 host='0.0.0.0'으로 설정
-    app.run(host='0.0.0.0', port=port)
+python manage.py runserver 0.0.0.0:10000
 bot.run(os.environ['TOKEN']) 
